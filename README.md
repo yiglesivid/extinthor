@@ -43,7 +43,7 @@ Como alternativa visual cercana en Google Fonts se recomienda:
 
 **Poppins – Medium 400 / 600**
 
-![Fuente Poppins](https://fonts.google.com/share?selection.family=Poppins:wght@400;600)
+![Fuente Poppins]([https://fonts.google.com/share?selection.family=Poppins:wght@400;600](https://fonts.google.com/specimen/Poppins))
 
 > Poppins mantiene el mismo equilibrio entre modernidad, legibilidad y geometría redondeada que la familia de sistema usada en el proyecto.
 

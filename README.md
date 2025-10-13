@@ -41,10 +41,6 @@ Paleta generada con Adobe Color a partir del archivo CSS:
 El sitio utiliza tipografía de sistema **Segoe UI / Verdana / sans-serif** para mantener legibilidad y compatibilidad.  
 Como alternativa visual cercana en Google Fonts se recomienda:
 
-**Poppins – Medium 400 / 600**
-
-![Fuente Poppins]
-
-> Poppins mantiene el mismo equilibrio entre modernidad, legibilidad y geometría redondeada que la familia de sistema usada en el proyecto.
+[Fuente Poppins]
 
 ---

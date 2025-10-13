@@ -24,7 +24,7 @@ La web cuenta con cuatro secciones:
 Los tonos de la web se basan en el **rojo Extinthor (#DC3545)** complementado por una gama de grises suaves usados en fondos y tipografía.  
 Paleta generada con Adobe Color a partir del archivo CSS:
 
-![Paleta Extinthor]
+[Paleta Extinthor]
 
 | Color | Hex | Uso principal |
 |:------|:----|:---------------|
@@ -40,7 +40,5 @@ Paleta generada con Adobe Color a partir del archivo CSS:
 
 El sitio utiliza tipografía de sistema **Segoe UI / Verdana / sans-serif** para mantener legibilidad y compatibilidad.  
 Como alternativa visual cercana en Google Fonts se recomienda:
-
-[Fuente Poppins]
 
 ---

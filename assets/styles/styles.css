@@ -84,3 +84,21 @@ footer iframe {
   }
 }
 
+/* === Uniform HERO height across all pages === */
+.hero {
+  /* Keep the gradient defined earlier, just enforce sizing & centering */
+  min-height: 260px;            /* mobile base */
+  display: flex;
+  align-items: center;          /* vertical center */
+  justify-content: center;      /* horizontal center for inner container */
+  padding-top: 3rem;            /* match Bootstrap py-5 */
+  padding-bottom: 3rem;
+}
+
+/* Scale hero height slightly on larger screens for visual balance */
+@media (min-width: 768px) {
+  .hero { min-height: 300px; }
+}
+@media (min-width: 1200px) {
+  .hero { min-height: 360px; }
+}

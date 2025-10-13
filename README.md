@@ -1,13 +1,50 @@
-# Extinthor
+# 🧯 Extinthor – El extintor que salva vidas
 
-He elegido este proyecto porque combina tecnología con seguridad, y me pareció interesante aplicarlo para un producto tan necesario.
+## 🌐 Contexto del proyecto
+**Extinthor** es un extintor inteligente con tecnología **IoT** que monitoriza en tiempo real su presión, carga y ubicación.  
+El sitio web está diseñado con **Bootstrap 5** 
 
-## Colores principales
-- **Rojo (#dc3545)**
-- **Blanco (#ffffff)** 
-- **Gris claro (#f8f9fa – #e9ecef)**
-##  Fuentes utilizadas
-- **Segoe UI**, Tahoma, Geneva, Verdana, sans-serif  
+La web cuenta con cuatro secciones:
+- **Página principal (index.html)**: presentación del producto y características.  
+- **Productos (events.html)**: catálogo visual de modelos Extinthor.  
+- **Contacto (contact.html)**: formulario de mensajes.  
+- **Login (login.html)**: acceso de usuario.
 
-##  HECHO POR
-- **Yago Iglesias
+---
+
+## 👤 Autor
+
+**Yago Iglesias**  
+[🔗 LinkedIn – Yago Iglesias](https://www.linkedin.com/in/yago-iglesias/)  
+
+---
+
+## 🎨 Paleta de colores (Adobe Color)
+
+Los tonos de la web se basan en el **rojo Extinthor (#DC3545)** complementado por una gama de grises suaves usados en fondos y tipografía.  
+Paleta generada con Adobe Color a partir del archivo CSS:
+
+![Paleta Extinthor](https://color.adobe.com/es/visualizer?rgbvalues=DC3545,BB2D3B,F8F9FA,E9ECEF,333333&mode=rgb&name=Paleta%20Extinthor)
+
+| Color | Hex | Uso principal |
+|:------|:----|:---------------|
+| 🔴 Rojo Extinthor | `#DC3545` | Botones, títulos y acentos |
+| 🔴 Rojo oscuro | `#BB2D3B` | Hover y contraste |
+| ⚪ Blanco grisáceo | `#F8F9FA` | Fondo claro general |
+| ⚪ Gris claro | `#E9ECEF` | Secciones secundarias |
+| ⚫ Gris oscuro | `#333333` | Texto principal |
+
+---
+
+## 🔠 Tipografía
+
+El sitio utiliza tipografía de sistema **Segoe UI / Verdana / sans-serif** para mantener legibilidad y compatibilidad.  
+Como alternativa visual cercana en Google Fonts se recomienda:
+
+**Poppins – Medium 400 / 600**
+
+![Fuente Poppins](https://fonts.google.com/share?selection.family=Poppins:wght@400;600)
+
+> Poppins mantiene el mismo equilibrio entre modernidad, legibilidad y geometría redondeada que la familia de sistema usada en el proyecto.
+
+---

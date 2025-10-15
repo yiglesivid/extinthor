@@ -2,7 +2,9 @@
 
 ## 🌐 Contexto del proyecto
 **Extinthor** es un extintor inteligente con tecnología **IoT** que monitoriza en tiempo real su presión, carga y ubicación.  
-El sitio web está diseñado con **Bootstrap 5** 
+El sitio web está diseñado con **HTML, CSS, BOOTSTRAP Y JQUERY** 
+
+Esta página, ha sido desarrollada en **Visual Studio Code**
 
 La web cuenta con cuatro secciones:
 - **Página principal (index.html)**: presentación del producto y características.  
@@ -39,6 +41,5 @@ Paleta generada con Adobe Color a partir del archivo CSS:
 ## 🔠 Tipografía
 
 El sitio utiliza tipografía de sistema **Segoe UI / Verdana / sans-serif** para mantener legibilidad y compatibilidad.  
-Como alternativa visual cercana en Google Fonts se recomienda:
 
 ---

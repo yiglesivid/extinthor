@@ -1,109 +1,324 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Extinthor - El extintor que salva vidas</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="./assets/styles/styles.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <title>Extinthor - El extintor que salva vidas · SPA</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/styles/styles.css" rel="stylesheet" />
 </head>
 
 <body>
-  <div class="container-fluid p-0">
-
-    <!-- HEADER -->
-    <nav class="navbar navbar-expand-xl navbar-light bg-light shadow-sm">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bold text-danger" href="./index.html">Extinthor</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
-          aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" data-section="home" href="#">Extinthor</a>
+        <button class="navbar-toggler" data-target="#navMain" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarBasic">
-          <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Página Principal</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./subpages/events.html">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./subpages/contact.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./subpages/login.html">Login</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navMain">
+            <ul class="navbar-nav mr-auto" id="menu">
+                <li class="nav-item"><a class="nav-link" data-section="home" href="#home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" data-section="productos" href="#productos">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" data-section="contacto" href="#contacto">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" data-section="login" href="#login">Login</a></li>
+            </ul>
         </div>
-      </div>
     </nav>
+    <main class="container-fluid">
+        <section aria-label="Inicio" class="view active spa-section bg-light" id="view-home">
+            <div class="container-fluid p-0 text-dark bg-light">
+                <!-- HERO -->
+                <header class="hero text-white text-center py-5">
+                    <div class="container text-dark">
+                        <h1 class="display-4 fw-bold">Extinthor</h1>
+                        <p class="lead">El extintor que salva vidas, rápido, seguro y siempre a tu alcance.</p>
+                    </div>
+                </header>
+                <section class="py-5 text-center">
+                    <div class="container">
+                        <img alt="Extinthor portada" class="img-fluid rounded shadow" src="./assets/img/portada.jpg" />
+                        <h2 class="mt-4">Protección conectada, real y vigilada</h2>
+                        <p> Extinthor es el primer extintor con tecnología IoT diseñada para hogares, empresas e
+                            industrias. Gracias
+                            a sus sensores integrados, monitoriza en tiempo real la presión, carga y ubicación del
+                            dispositivo,
+                            enviando alertas inmediatas en caso de fallo, manipulación indebida o emergencia. Además, su
+                            conectividad
+                            permite integrar los datos con aplicaciones móviles y sistemas de seguridad, garantizando
+                            que siempre esté
+                            en condiciones óptimas para actuar cuando más lo necesitas. Con Extinthor, no solo tienes un
+                            extintor,
+                            sino un sistema inteligente de prevención y respuesta frente al fuego.</p>
+                    </div>
+                </section>
+                <!-- CARACTERÍSTICAS -->
+                <section class="py-5 bg-light">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <h3 class="text-danger">Conectado</h3>
+                                <p>Monitorización en tiempo real del estado y ubicación del extintor.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h3 class="text-danger">Alertas Inteligentes</h3>
+                                <p>Notificaciones inmediatas al móvil en caso de emergencia o fallo.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h3 class="text-danger">Autonomía</h3>
+                                <p>Batería de larga duración con comprobación periódica.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- FOOTER -->
 
-    <!-- HERO -->
-    <header class="hero text-white text-center py-5">
-      <div class="container">
-        <h1 class="display-4 fw-bold">Extinthor</h1>
-        <p class="lead">El extintor que salva vidas, rápido, seguro y siempre a tu alcance.</p>
-      </div>
-    </header>
+            </div>
+        </section>
+        <section aria-label="Productos" class="view spa-section bg-light" id="view-productos">
+            <div class="container-fluid p-0 text-dark bg-light">
+                <!-- HERO -->
+                <header class="hero text-white text-center py-5">
+                    <div class="container text-dark">
+                        <h1 class="display-4 fw-bold">Extinthor</h1>
+                        <p class="lead">El extintor que salva vidas, rápido, seguro y siempre a tu alcance.</p>
+                    </div>
+                </header>
+                <!-- CARDS -->
+                <section class="py-5">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card h-100">
+                                    <img alt="Extinthor 1kg" class="card-img-top" src="./assets/img/1kg.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Extinthor 1kg</h5>
+                                        <p class="card-text" style="display:none">Compacto y ligero, ideal para coches y
+                                            espacios pequeños.
+                                            Supervisión IoT incluida.</p>
+                                        <button class="btn btn-danger btn-sm btn-mostrar mt-2"
+                                            type="button">Mostrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card h-100">
+                                    <img alt="Extinthor 3kg" class="card-img-top" src="./assets/img/3kg.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Extinthor 3kg</h5>
+                                        <p class="card-text" style="display:none">El equilibrio perfecto entre tamaño y
+                                            potencia.
+                                            Recomendado para oficinas y hogares.</p>
+                                        <button class="btn btn-danger btn-sm btn-mostrar mt-2"
+                                            type="button">Mostrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card h-100">
+                                    <img alt="Extinthor 6kg" class="card-img-top" src="./assets/img/6kg.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Extinthor 6kg</h5>
+                                        <p class="card-text" style="display:none">Potente y versátil, perfecto para
+                                            locales comerciales y
+                                            almacenes pequeños.</p>
+                                        <button class="btn btn-danger btn-sm btn-mostrar mt-2"
+                                            type="button">Mostrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card h-100">
+                                    <img alt="Extinthor 9kg" class="card-img-top" src="./assets/img/9kg.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Extinthor 9kg</h5>
+                                        <p class="card-text" style="display:none">Alta capacidad, recomendado para naves
+                                            industriales y
+                                            edificios grandes.</p>
+                                        <button class="btn btn-danger btn-sm btn-mostrar mt-2"
+                                            type="button">Mostrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card h-100">
+                                    <img alt="Extinthor 12kg" class="card-img-top" src="./assets/img/12kg.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Extinthor 12kg</h5>
+                                        <p class="card-text" style="display:none">Diseñado para instalaciones críticas,
+                                            con control remoto y
+                                            monitoreo 24/7.</p>
+                                        <button class="btn btn-danger btn-sm btn-mostrar mt-2"
+                                            type="button">Mostrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card h-100">
+                                    <img alt="Extinthor 25kg" class="card-img-top" src="./assets/img/25kg.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Extinthor 25kg</h5>
+                                        <p class="card-text" style="display:none">Extrema capacidad para grandes
+                                            industrias y almacenes de
+                                            alto riesgo.</p>
+                                        <button class="btn btn-danger btn-sm btn-mostrar mt-2"
+                                            type="button">Mostrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- FOOTER -->
 
-    <!-- SECCIÓN DE IMAGEN DESTACADA (extintor IoT) -->
-    <section class="py-5 text-center">
-      <div class="container">
-        <img src="./assets/img/portada.jpg" class="img-fluid rounded shadow" alt="Extinthor portada">
-        <h2 class="mt-4">Protección conectada, real y vigilada</h2>
-        <p> Extinthor es el primer extintor con tecnología IoT diseñada para hogares, empresas e industrias. Gracias a sus sensores integrados, monitoriza en tiempo real la presión, carga y ubicación del dispositivo, enviando alertas inmediatas en caso de fallo, manipulación indebida o emergencia. Además, su conectividad permite integrar los datos con aplicaciones móviles y sistemas de seguridad, garantizando que siempre esté en condiciones óptimas para actuar cuando más lo necesitas. Con Extinthor, no solo tienes un extintor, sino un sistema inteligente de prevención y respuesta frente al fuego.</p>
-      </div>
-    </section>
+            </div>
 
-    <!-- CARACTERÍSTICAS -->
-    <section class="py-5 bg-light">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-4">
-            <h3 class="text-danger">Conectado</h3>
-            <p>Monitorización en tiempo real del estado y ubicación del extintor.</p>
-          </div>
-          <div class="col-md-4">
-            <h3 class="text-danger">Alertas Inteligentes</h3>
-            <p>Notificaciones inmediatas al móvil en caso de emergencia o fallo.</p>
-          </div>
-          <div class="col-md-4">
-            <h3 class="text-danger">Autonomía</h3>
-            <p>Batería de larga duración con comprobación periódica.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
+        <section aria-label="Contacto" class="view spa-section bg-light" id="view-contacto">
+            <div class="container-fluid p-0 text-dark bg-light">
+                <!-- HERO -->
+                <header class="hero text-white text-center py-5">
+                    <div class="container text-dark">
+                        <h1 class="display-4 fw-bold">Extinthor</h1>
+                        <p class="lead">El extintor que salva vidas, rápido, seguro y siempre a tu alcance.</p>
+                    </div>
+                </header>
+                <!-- FORMULARIO -->
+                <section class="py-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="card shadow-sm">
+                                    <div class="card-body p-4">
+                                        <h4 class="mb-4 text-danger">Envíanos un mensaje</h4>
+                                        <form>
+                                            <div class="mb-3">
+                                                <label class="form-label" for="nombre">Nombre completo</label>
+                                                <input class="form-control" id="nombre" placeholder="Escriba su nombre"
+                                                    required="" type="text" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label" for="email">Correo electrónico</label>
+                                                <input class="form-control" id="email" placeholder="nombre@correo.com"
+                                                    required="" type="email" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label" for="telefono">Teléfono</label>
+                                                <input class="form-control" id="telefono" placeholder="+34 666 455 252"
+                                                    type="tel" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label" for="asunto">Asunto</label>
+                                                <select class="form-select" id="asunto" required="">
+                                                    <option value="">Selecciona un asunto...</option>
+                                                    <option value="info">Información general</option>
+                                                    <option value="productos">Consulta sobre productos</option>
+                                                    <option value="soporte">Soporte técnico</option>
+                                                    <option value="otro">Otro</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label" for="mensaje">Mensaje</label>
+                                                <textarea class="form-control" id="mensaje"
+                                                    placeholder="Escribe tu mensaje aquí..." required=""
+                                                    rows="5"></textarea>
+                                            </div>
+                                            <div class="d-grid">
+                                                <button class="btn btn-danger btn-lg" type="submit">Enviar
+                                                    mensaje</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- FOOTER -->
 
-    <!-- FOOTER -->
+            </div>
+
+        </section>
+        <section aria-label="Login" class="view spa-section bg-light" id="view-login">
+            <div class="container-fluid p-0 text-dark bg-light">
+                <!-- HERO -->
+                <header class="hero text-white text-center py-5">
+                    <div class="container text-dark">
+                        <h1 class="display-4 fw-bold">Extinthor</h1>
+                        <p class="lead">El extintor que salva vidas, rápido, seguro y siempre a tu alcance.</p>
+                    </div>
+                </header>
+                <!-- FORMULARIO LOGIN -->
+                <section class="py-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5">
+                                <div class="card shadow-sm">
+                                    <div class="card-body p-4">
+                                        <h4 class="mb-4 text-danger text-center">Bienvenido</h4>
+                                        <form>
+                                            <div class="mb-3">
+                                                <label class="form-label" for="email">Correo electrónico</label>
+                                                <input class="form-control" id="email" placeholder="nombre@ejemplo.com"
+                                                    required="" type="email" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label" for="password">Contraseña</label>
+                                                <input class="form-control" id="password" placeholder="********"
+                                                    required="" type="password" />
+                                            </div>
+                                            <div class="form-check mb-3">
+                                                <input class="form-check-input" id="recordarme" type="checkbox" />
+                                                <label class="form-check-label" for="recordarme">Recordarme</label>
+                                            </div>
+                                            <div class="d-grid mb-3">
+                                                <button class="btn btn-danger btn-lg" type="submit">Iniciar
+                                                    sesión</button>
+                                            </div>
+                                            <div class="text-center">
+                                                <a class="text-danger" href="#">¿Olvidaste tu contraseña?</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- FOOTER -->
+
+            </div>
+
+        </section>
+
+    </main>
     <footer class="bg-dark text-white py-4">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center mb-3 mb-md-0">
-            <h5 class="mb-3">Encuentranos</h5>
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.0483442602947!2d-2.604751924447518!3d39.26927212600205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6917c2c64885d7%3A0x65cfbead52b4782a!2sVillarrobledo%2C%20Albacete!5e0!3m2!1ses!2ses!4v1696173200000!5m2!1ses!2ses" 
-              width="350" height="200" style="border:0;">
-            </iframe>
-          </div>
-          <div class="col-md-6 text-center text-md-start">
-            <h5 class="mb-3">Contáctanos</h5>
-            <p class="mb-1">Dirección: Calle de Sta. Ana, 60, 02600 Villarrobledo, Albacete</p>
-            <p class="mb-1">Teléfono: +34 612 123 496</p>
-            <p class="mb-1">Email: contact@extinthor.com</p>
-          </div>
+        <div class="container text-dark bg-light">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center mb-3 mb-md-0">
+                    <h5 class="mb-3">Encuentranos</h5>
+                    <iframe height="200"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.0483442602947!2d-2.604751924447518!3d39.26927212600205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6917c2c64885d7%3A0x65cfbead52b4782a!2sVillarrobledo%2C%20Albacete!5e0!3m2!1ses!2ses!4v1696173200000!5m2!1ses!2ses"
+                        style="border:0;" width="350">
+                    </iframe>
+                </div>
+                <div class="col-md-6 text-center text-md-start">
+                    <h5 class="mb-3">Contáctanos</h5>
+                    <p class="mb-1">Dirección: Calle de Sta. Ana, 60, 02600 Villarrobledo, Albacete</p>
+                    <p class="mb-1">Teléfono: +34 612 123 496</p>
+                    <p class="mb-1">Email: contact@extinthor.com</p>
+                </div>
+            </div>
+            <div class="text-center mt-4 text-dark bg-light">
+                <p class="mb-0 text-dark">© 2025 Extinthor - El extintor que salva vidas | Todos los derechos reservados
+                </p>
+            </div>
         </div>
-        <div class="text-center mt-4">
-          <p class="mb-0">© 2025 Extinthor - El extintor que salva vidas | Todos los derechos reservados</p>
-        </div>
-      </div>
     </footer>
-
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
